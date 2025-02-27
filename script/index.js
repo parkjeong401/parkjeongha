@@ -17,7 +17,10 @@ const bnrlslide = new Swiper('.banner', {
 })
 
 //상세디자인
-const detailslide = new Swiper('.detail')
+const detailslide = new Swiper('.detail',{
+    slidesPerView:2,
+    spaceBetween:20,
+})
 
 //출력 및 숨기기
 const popup_bg = document.querySelector('.popup_bg')
