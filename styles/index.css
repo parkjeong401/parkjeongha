@@ -70,7 +70,6 @@ h2 {
 }
 .my_profile .greetings span {
     font-size: 1.95rem;
-    font-weight:700;
     color:#000;
 }
 .my_profile .greetings p {
@@ -81,13 +80,13 @@ h2 {
     font-size: 2.2rem;
     color: #769df0;
     letter-spacing:-0.02em;
-    font-weight: 800;
 }
 .my_profile .greetings p em {
     font-weight:700; 
 }
 .my_profile .greetings img {
     margin-top:34px;
+    border-radius:5px;
 }
 .my_profile .my_info {
     /* position:absolute; */
@@ -188,6 +187,7 @@ h2 {
     /* left:336px; */
     /* top:435px; */
     width: 70%;
+    border-radius:5px;
 }
 .web .webd img+div {
     /* position:absolute; */
