@@ -57,12 +57,12 @@ h2 {
 }
 .my_profile .right {
     display: flex;
-    flex-flow: column wrap;
-    height: 500px;
     /* width: 20%; */
     /* background: red; */
     padding-top: 150px;
 }
+.my_profile .right .left {}
+.my_profile .right .right2 {}
 .my_profile .greetings {
     padding-top: 55px;
     text-align:left;
@@ -94,8 +94,8 @@ h2 {
     /* left:606px; */
     /* top:582px; */
     text-align:left;
-    height: 40%;
     margin-right: 114px;
+    margin-bottom: 50px;
 }
 .my_profile .my_info span {
     font-weight:600; color:#FC9300;
@@ -105,14 +105,12 @@ h2 {
     margin-top:8px;
 }
 .my_profile .my_info .personal_info p {
-    margin-top:8px; letter-spacing:-0.02em;
+    margin-top:8px;
+    letter-spacing:-0.02em;
+    line-height: 1.5;
 }
 .my_profile .programs {
     text-align:left;
-    /* position:absolute; */
-    /* left:606px; */
-    /* top:737px; */
-    height: 60%;
 }
 .my_profile .programs span {
     display:block; 
@@ -127,7 +125,7 @@ h2 {
     /* position:absolute; */
     /* right:131px; */
     /* top:489px; */
-    margin-bottom: 21px;
+    margin-bottom: 50px;
     /* padding-top: 50px; */
 }
 .my_profile .graduate span {
@@ -137,7 +135,8 @@ h2 {
 .my_profile .graduate .completion {}
 .my_profile .graduate .completion p {
     margin:8px 0 8px 0;
-    font-weight:600; 
+    font-weight:600;
+    line-height: 1.8;
 }
 .my_profile .graduate .completion span {
     font-size:0.94rem; color:#7E7E7E;
@@ -179,7 +178,6 @@ h2 {
 .web .webd {
     margin-bottom:215px;
     width: 1400px;
-    background: aqua;
     margin: 0 auto;
     display: flex;
     /* margin-bottom: 30px; */
@@ -246,6 +244,7 @@ h2 {
     width:116px; padding:10px;
     font-size:1.13rem;
 }
+.web .webd a:hover {box-shadow:0 0 10px rgba(0,0,0,0.3);}
 .web .web_design1 .food_web .work1 .planning1 .plan {
     border-radius:10px; background-color:#E2E2E2;
     width:116px; padding:10px;
