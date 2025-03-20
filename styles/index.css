@@ -1,4 +1,4 @@
-.title {position: relative; height:100vh; padding:100px;}
+.title {position: relative; height:100vh; padding:100px 0 0;}
 /* .title h1 {
     width:100%; 
     margin:0 auto;
@@ -15,9 +15,11 @@
     margin-top:100px; letter-spacing:-0.02em;
     color:#fff;
 } */
-.title img {}
+.title > img {padding-left: 100px;}
 .title h1 {}
-.title h1 img {margin-top:35px;}
+.title h1 img {
+    margin-top:35px; width:100%;
+}
 /* .title .personal_contact {
     text-align:right;
     margin-top:300px;
@@ -78,7 +80,7 @@
     width:200px; /*프로필 사진크기*/
     border:1px solid #aaa; border-radius:20px;
 }
-.my_profile .right_c {display:flex; padding-top:300px;}
+.my_profile .right_c {display:flex; padding-top:150px;}
 .my_profile .right_c .l {margin-right:100px;}
 .my_profile .right_c .r {}
 .my_profile .my_info {
